@@ -18,7 +18,7 @@ class DoctorCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 25),
+      padding: EdgeInsets.only(left: 25),
       child: Container(
         padding: EdgeInsets.all(20),
         decoration: BoxDecoration(
@@ -31,7 +31,7 @@ class DoctorCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(50),
               child: Image.asset(
                 imagePath,
-                height: 100,
+                height: 80,
               ),
             ),
             SizedBox(height: 10.0),
